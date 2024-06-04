@@ -121,3 +121,18 @@ area=len*wid
 per=2*(len+wid)
 print(f"area={area}")
 print(f"perimeter={per}")
+
+#armstrongnumber
+
+n=int(input("enter a number:"))
+num=str(n)
+l=len(num)
+sum=0
+for x in num:
+    sum+=int(x)**l
+if sum==n:
+    print("armstronge number")
+else:
+    print("not armstronge number")
+
+
