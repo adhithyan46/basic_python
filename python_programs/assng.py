@@ -1,4 +1,4 @@
-# swapping
+# 1.swapping
 
 # a=5
 # b=6
@@ -11,7 +11,7 @@
 # print("numbers after swapping")
 # print(a,b)
 
-#pos or neg
+#2.pos or neg
 
 # a=int(input("enter a number:"))
 # if a>0:
@@ -19,7 +19,7 @@
 # else:
 #     print("number is negative")
 
-#leap year
+#3.leap year
 
 # year=int(input("enter a year:"))
 # a=year%4
@@ -36,7 +36,7 @@
 # else:
 #     print("not leap year")
 
-#odd or even
+#4.odd or even
 
 # a=int(input("enter a number:"))
 # if a%2==0:
@@ -44,7 +44,7 @@
 # else:
 #     print("odd number")
 
-#prime number
+#5.prime number
 
 # n1=int(input("enter starting intervel:"))
 # n2=int(input("enter ending intervel:"))
@@ -58,14 +58,14 @@
 
         
 
-# odd or even
+#6. odd or even
 
 # for i in range(1,50):
 #     if(i%2)!=0:
 #         print(i)
             
 
-#factorial
+#7.factorial
 
 # n=int(input("enter a number:"))
 # f=1
@@ -78,7 +78,7 @@
 #         f*=i
 # print(f"factorial of {n} is {f}")
 
-#palindrome
+#8.palindrome
 
 # str1=input("enter a string:")
 # str2=str1.replace(" ","")
@@ -87,14 +87,14 @@
 # else:
 #     print(f"{str1} is not pallindrom")
 
-#sum of integers
+#9.sum of integers
 # sum=0
 # for i in range(101,200):
 #     if i%7==0:
 #      sum+=i   
 # print(sum)
             
-# multiplication table
+#10. multiplication table
 # x=int(input("enter a number:"))
 # y=1
 # while x>1 and y<=10:
@@ -103,7 +103,7 @@
 #     print(f"{x}*{y}={n}")
 #     y+=1
 
-#area and perimeter of rectangle
+#11.area and perimeter of rectangle
 
 len=int(input("enter the length of the rectangle:"))
 wid=int(input("enter the length of the rectangle:"))
