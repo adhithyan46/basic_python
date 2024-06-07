@@ -50,7 +50,7 @@ for line in lines:
 # print("merged dictionary")
 # print(dict3)
 
-#3.list methods
+#4.list methods
 
 list1=[1,2,3,4]
 list2=[5,6,7,8]
@@ -73,4 +73,41 @@ list1.clear()
 print("list after clear")
 print(list1)
 
+
+#5.dictionary methods
+
+dict1={
+    "name":"a",
+    "age":"b"
+}
+dict2={
+    "place":"c",
+    "city":"d"
+}
+v=dict1.values()
+print("values of dictionary")
+print(v)
+k=dict1.keys()
+print("keys of dictionary")
+print(k)
+i=dict1.get("name")
+print("name is:")
+print(i)
+dict1.update({"mob":"n"})
+print("updated dictionary:")
+print(dict1)
+dict3=dict1.copy()
+print("copy")
+print(dict3)
+dict1.clear()
+print("dictionar cleared")
+print(dict1)
+
+#sum element in a list
+
+list1=[1,2,3,4,5]
+sum=0
+for i in list1:
+    sum+=i
+print(sum)
 
