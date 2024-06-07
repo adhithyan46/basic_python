@@ -103,7 +103,7 @@ dict1.clear()
 print("dictionar cleared")
 print(dict1)
 
-#sum element in a list
+#6.sum element in a list
 
 list1=[1,2,3,4,5]
 sum=0
@@ -111,8 +111,16 @@ for i in list1:
     sum+=i
 print(sum)
 
-#list comp
+#7.list comp
 
 list1=[1,2,3,4]
 list2=[i for i in list1 if i>2 ]  
 print(list2)
+
+#8.largest and smallest
+
+list1=[1,2,3,4,5]
+max=max(list1)
+min=min(list1)
+print(f"largest value:{max}")
+print(f"smallest value:{min}")
