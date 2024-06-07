@@ -14,7 +14,7 @@
 # for i in trans :
 #     print(i)
 
-#uppercase
+#2.uppercase
 
 lines=[]
 print("enter 2 lines:")
@@ -27,7 +27,7 @@ print("capitalized")
 for line in lines:
     print(lines.upper())
 
-#dictionary merge
+#3.dictionary merge
 
 # dict1={}
 # dict2={}
@@ -49,4 +49,28 @@ for line in lines:
 # dict3=dict1|dict2
 # print("merged dictionary")
 # print(dict3)
+
+#3.list methods
+
+list1=[1,2,3,4]
+list2=[5,6,7,8]
+list1.append(list2)
+print("list after appending")
+print(list1)
+list1.pop()
+print("list after pop")
+print(list1)
+list1.remove(3)
+print("list after removing")
+print(list1)
+i=list1.index(4)
+print("index of 6")
+print(i)
+c=list1.count(2)
+print("count of 2")
+print(c)
+list1.clear()
+print("list after clear")
+print(list1)
+
 
