@@ -124,3 +124,32 @@ max=max(list1)
 min=min(list1)
 print(f"largest value:{max}")
 print(f"smallest value:{min}")
+
+#9
+list1=[1,2,3,4,5,6,7,8,9]
+list2=[i for i in list1 if i%2!=0]
+print(list2)
+print(len(list2))
+
+#10
+list1=[i**2 for i in range(1,31)]
+first_5=list1[:5]
+second_5=list1[-5:]
+print("first 5 elements:",first_5)
+print("second 5 elements:",second_5)
+
+#11
+
+list1=["red","green","blue"]
+str1="color:"
+list2=[str1+i for i in list1 ]
+print((list2))
+
+#12
+dict1={
+    "name":"adhi",
+    "place":"kzm"
+}
+dict1["age"]=21
+k=dict1.keys()
+print(k)
