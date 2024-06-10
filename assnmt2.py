@@ -153,3 +153,9 @@ dict1={
 dict1["age"]=21
 k=dict1.keys()
 print(k)
+
+#13
+
+list1=["red","green","apple","orange"]
+dict1={word:len(word) for word in list1}
+print(dict1)            
