@@ -98,6 +98,7 @@
 #     print(f"{str1} is not pallindrom")
 
 #sum of integers
+
 # sum=0
 # for i in range(101,200):
 #     if i%7==0:
@@ -135,4 +136,44 @@ if sum==n:
 else:
     print("not armstronge number")
 
+#largest amoung 3
+
+print("enter 3 numbers")
+a=float(input("enter 1st number:"))
+b=float(input("enter 2nd number:"))
+c=float(input("enter 3rd number:")) 
+if (a>c and a>b):
+    print(f"{a} is larger" )
+elif(b>c and b>a):
+    print(f"{b} 
+    is larger")
+else:
+    print(f"{c} is largest")
+
+#count vowels
+
+str1=input("enter a string:")
+vls=("a","e","i","o","u")
+ct_vls=0
+for i in str1:
+    if i in vls:
+        ct_vls+=1
+print(ct_vls)
+
+#complex number
+
+c1=complex(input("enter 1st complex number:"))
+c2=complex(input("enter 2st complex number:"))
+print("addion:")
+add=c1+c2
+print(f"{c1}*{c2}={add}")
+print("substraction:")
+sub=c1-c2
+print(f"{c1}*{c2}={sub}")
+print("division:")
+div=c1/c2
+print(f"{c1}*{c2}={div}")
+print("multiplication:")
+mul=c1*c2
+print(f"{c1}*{c2}={mul}")
 
