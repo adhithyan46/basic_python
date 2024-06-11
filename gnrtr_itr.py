@@ -64,4 +64,27 @@ myit=iter(mycls)
 for x in mycls:
     print(x)
 
+
+class sqr:
+    def __iter__(self):
+        self.l=0
+        return self
+    def __next__(self):
+       
+        if self.l<=10:
+            # x=self.l
+            self.l+=1
+            a=self.l**2
+         
+            return a
+        else:
+            raise StopIteration
+            
+#
+
+mycls=sqr()
+myit=iter(mycls)
+for a in mycls:
+    print(f"area ={a}")
+
   
