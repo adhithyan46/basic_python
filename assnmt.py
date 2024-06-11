@@ -235,3 +235,19 @@ while(customer_num>0):
     invoice_num+=3
     customer_num-=1
 
+#
+
+str1=input("enter a string:")
+py="python"
+ja=" java"
+p=" php"
+if len(str1)>=5:
+    if py in str1:
+       str1+=ja
+       print(str1)
+    elif py not in str1:
+        str1+=py
+        print(str1)
+else:
+    str1+=p
+    print(str1)
