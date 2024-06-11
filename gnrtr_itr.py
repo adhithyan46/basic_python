@@ -27,4 +27,41 @@
 # print(next(ite))
 
 
-   
+#iterator in class
+
+# class num:
+#     def __iter__(self):
+#         self.a=1
+#         return self
+#     def __next__(self):
+#         x=self.a
+#         self.a+=1
+#         return x
+# mycls=num()
+# myit=iter(mycls)
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+# print(next(myit))
+
+
+
+class num:
+    def __iter__(self):
+        self.a=1
+        return self
+    def __next__(self):
+       
+        if self.a<=10:
+            x=self.a
+            self.a+=1
+            return x
+        else:
+            raise StopIteration
+
+mycls=num()
+myit=iter(mycls)
+for x in mycls:
+    print(x)
+
+  
