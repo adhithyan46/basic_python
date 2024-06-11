@@ -177,3 +177,61 @@ print("multiplication:")
 mul=c1*c2
 print(f"{c1}*{c2}={mul}")
 
+#
+
+# num_1=10
+# num_2=11
+# print("num_1=10,num_2=11")
+# num_3=num_1%num_2
+# print(f"num_1%num_2={num_3}")
+# num_3=num_1-num_2
+# print(f"num_1-num_2={num_3}")
+# num_3=num_1*num_2
+# print(f"num_1*num_2={num_3}")
+
+
+#
+
+# num_1=7
+# num_2=6
+# print("num_1=7,num_2=6")
+# num_3=num_1<num_2
+# print(f"num_1<num_2={num_3}")
+# num_3=num_1>num_2
+# print(f"num_1>num_2={num_3}")
+# num_3=num_1<=num_2
+# print(f"num_1<=num_2={num_3}")
+# num_3=num_1==num_2
+# print(f"num_1=num_2={num_3}")
+
+#
+
+# num_1=3
+# num_2=4
+# print("num_1=3")
+# print("num_2=4")
+# num_3=(num_1<num_2)and(num_1!=num_2)
+# print("(num_1<num_2)and(num_1!=num_2)=",num_3)
+# num_3=(num_1>=num_2)or(num_1>num_2)
+# print("(num_1>=num_2)or(num_1>num_2)=",num_3)
+# num_3=not(num_1==num_2)
+# print("not(num_1=num_2)",num_3)
+
+
+#
+
+# i=1
+# while(i<6):
+#     i=i+1
+#     print(i)
+
+#
+
+customer_num=5
+invoice_num=1212
+print("invoice No(s):")
+while(customer_num>0):
+    print("INV-",invoice_num)
+    invoice_num+=3
+    customer_num-=1
+
