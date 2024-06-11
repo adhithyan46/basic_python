@@ -45,3 +45,23 @@ s.disp()
 
         
     
+#
+
+
+# class employee:
+#     def __init__(self,name,salary):
+#         self._name=name
+#         self._salary=salary
+#     def _printemp(self):
+#         print("name:",self._name)
+#         print("salary:",self._salary)
+# class HR(employee):
+#     def __init__(self,name,salary,accountNo):
+#         super().__init__(name,salary)
+#         self._accountNo=accountNo
+#     def printemp(self):
+#         self._printemp()
+#         print("accountNo:",self._accountNo)
+# h=HR("adhi",10000,201924892)
+# h.printemp()
+    
