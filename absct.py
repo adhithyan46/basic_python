@@ -29,4 +29,39 @@ circle=cir(5)
 circle.area()
 circle.peri()
 
+#
+
+from abc import(ABC,abstractmethod)
+class animal(ABC):
+    @abstractmethod
+    def speak(self):
+     pass
+class dog(animal):
+    def __init__(self,name):
+      self.name=name
+    def speak(self):
+       print(f"The dog {self.name} barks")
+class cat(animal):
+    def __init__(self,name):
+       self.name=name
+    def speak(self):
+       print(f"The cat {self.name} meows")
+class bird(animal):
+    def __init__(self,name):
+       self.name=name
+    def speak(self):
+       print(f"The bird {self.name} chirp")
+d=dog("wikky")
+d.speak()
+c=cat("tom")
+c.speak()
+b=bird("lily")
+b.speak()
+    
+
+
+
+
+
+
 
