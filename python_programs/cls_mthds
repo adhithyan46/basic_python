@@ -1,0 +1,14 @@
+class ani:
+    home="zoo"
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+    @classmethod
+    def ani_home(cls,home):
+        cls.home=home
+animal=ani("lion",2)
+print("animal home is :",animal.home)
+
+    
+        
+ 
