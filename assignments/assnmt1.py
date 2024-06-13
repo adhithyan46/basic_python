@@ -82,6 +82,77 @@
 # print("string with puctuation:",str1)
 # print("string with no punctuations:",nopunch)
 
+##prime number
+
+#n1=int(input("enter starting intervel:"))
+# n2=int(input("enter ending intervel:"))
+# for num in range(n1,n2+1):
+#     if num>1:
+#         for i in range(2,num):
+#             if(num%i)==0:
+#                 break                     
+#         else:
+#                 print(num)
+
+
+##odd or even
+
+#odd or even
+
+# for i in range(1,50):
+#     if(i%2)!=0:
+#         print(i)
+
+
+##factorial
+
+# n=int(input("enter a number:"))
+# f=1
+# if n<0:
+#     print("factorial is not defined")
+# # elif n==0:
+# #     print(f"factorial is of {n} is 1")
+# else:
+#     for i in range(1,n+1):
+#         f*=i
+# print(f"factorial of {n} is {f}")
+
+##palindrome
+
+# str1=input("enter a string:")
+# str2=str1.replace(" ","")
+# if str2==str2[::-1]:
+#     print(f"{str1} is pallindrom")
+# else:
+#     print(f"{str1} is not pallindrom")
+
+
+##sum of integer
+
+# sum=0
+# for i in range(101,200):
+#     if i%7==0:
+#      sum+=i   
+# print(sum)
+            
+# multiplication table
+# x=int(input("enter a number:"))
+# y=1
+# while x>1 and y<=10:
+#     n=x*y
+
+#     print(f"{x}*{y}={n}")
+#     y+=1
+
+##area and perimeter of rectangle
+
+# len=int(input("enter the length of the rectangle:"))
+# wid=int(input("enter the length of the rectangle:"))
+# area=len*wid
+# per=2*(len+wid)
+# print(f"area={area}")
+# print(f"perimeter={per}")
+
 # #largest amoung 3
 
 # print("enter 3 numbers")
