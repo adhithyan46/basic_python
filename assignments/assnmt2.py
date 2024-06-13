@@ -50,11 +50,83 @@
 # print("merged dictionary")
 # print(dict3)
 
-#dictionary comp
+
+# #count of letters and digits
+
+# sent=input("enter a sentence:")
+# letters=0
+# digits=0
+# for i in sent:
+#     if i.isalpha():
+#         letters+=1
+#     elif i.isdigit():
+#         digits+=1
+# print(f"number of letters:{letters}")
+# print(f"number of digits:{digits}")
+
+
+# #list comp
+
+# list1=[1,2,3,4]
+# list2=[i for i in list1 if i>2 ]  
+# print(list2)
+
+
+##dictionary comp
     
 # list1=["red","green","apple","orange"]
 # dict1={word:len(word) for word in list1}
 # print(dict1) 
+
+
+# #largest and smallest
+
+# list1=[1,2,3,4,5]
+# max=max(list1)
+# min=min(list1)
+# print(f"largest value:{max}")
+# print(f"smallest value:{min}")
+
+#removing even numbers
+
+# list1=[1,2,3,4,5,6,7,8,9]
+# list2=[i for i in list1 if i%2!=0]
+# print(list2)
+# print(len(list2))
+
+#first and last 5 elements
+
+# list1=[i**2 for i in range(1,31)]
+# first_5=list1[:5]
+# second_5=list1[-5:]
+# print("first 5 elements:",first_5)
+# print("second 5 elements:",second_5)
+
+
+#inserting a given string at the begining
+
+# list1=["red","green","blue"]
+# str1="color:"
+# list2=[str1+i for i in list1 ]
+# print((list2))
+
+#iterat throug 2 loop
+
+# list1=["red","green","blue"]
+# list2=["color1:","color2:","color3:"]
+# # list3=list1.update(list1)
+# for i1,i2 in (list1,list2):
+#     print(i2,i1)
+
+#adding key
+
+dict1={
+    "name":"adhi",
+    "place":"kzm"
+}
+dict1["age"]=21
+k=dict1.keys()
+print(k)
 
 #dict concat
 
