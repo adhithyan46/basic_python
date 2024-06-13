@@ -135,7 +135,8 @@
 #      sum+=i   
 # print(sum)
             
-# multiplication table
+## multiplication table
+
 # x=int(input("enter a number:"))
 # y=1
 # while x>1 and y<=10:
@@ -166,6 +167,23 @@
 #     is larger")
 # else:
 #     print(f"{c} is largest")
+
+##armstronge number
+
+
+n=int(input("enter a number:"))
+num=str(n)
+l=len(num)
+sum=0
+for x in num:
+    sum+=int(x)**l
+if sum==n:
+    print("armstronge number")
+else:
+    print("not armstronge number")
+
+
+
 
 #count vowels
 
