@@ -138,3 +138,84 @@ root.geometry('500x500')
 text=Text(root,fg='red',bg='yellow',width=400,height=400)
 text.pack()
 root.mainloop()
+
+#menu button
+
+# from tkinter import *
+# root=Tk()
+# root.title('menu button')
+# root.geometry('500x500')
+# mb=Menubutton(root,bg='red',text='menu')
+# main_menu=Menu(mb,tearoff=0)
+# mb["menu"]=main_menu
+# opt1=IntVar()
+# opt2=IntVar()
+# opt3=IntVar()
+# main_menu.add_checkbutton(label='file1',variable=opt1)
+# main_menu.add_checkbutton(label="file2",variable=opt2)
+# main_menu.add_checkbutton(label="file3",variable=opt3)
+# mb.pack()
+# root.mainloop()
+
+
+# menu bar
+
+# from tkinter import *
+# root=Tk()
+# root.title('menu bar')
+# root.geometry('500x500')
+# m_bar=Menu()
+# fl=Menu(m_bar,tearoff=0)
+# fl.add_command(label='new file')
+# fl.add_command(label='open file')
+# m_bar.add_cascade(menu=fl,label="File")
+# root.config(menu=m_bar)
+# ed=Menu(m_bar,tearoff=0)
+# ed.add_command(label='undo')
+# ed.add_command(label='redo')
+# m_bar.add_cascade(menu=ed,label='edit')
+# root.config(menu=m_bar)
+# root.mainloop()  
+
+#list box
+
+# from tkinter import *
+# root=Tk()
+# root.title('list box')
+# root.geometry('500x500')
+# lb=Listbox(root,width=20,height=10,selectmode=MULTIPLE)
+# lb.pack()
+# lb.insert(0,"option1")
+# lb.insert(1,'option1')
+# lb.insert(2,'option2')
+# root.mainloop()
+
+##scroll bar
+
+# from tkinter import*
+# root=Tk()
+# root.title('scroll bar')
+# # root.geometry('500x500')
+# sb=Scrollbar(root)
+# sb.pack(side=RIGHT,fill=Y)
+# lb=Listbox(root,yscrollcommand=sb.set)
+# for i in range(50):
+#     lb.insert(i,"option"+str(i))
+# lb.pack(side=LEFT)
+# sb.config(command=lb.yview)
+# root.mainloop()
+
+##panned window
+
+from tkinter import *
+from tkinter import ttk
+root=Tk()
+root.title("panned window")
+root.geometry('500x500')
+pw=ttk.PanedWindow(root,orient=HORIZONTAL)
+pw.pack(fill=BOTH,expand=True)
+fr1=ttk.Frame(pw,relief=SUNKEN)
+fr2=ttk.Frame(pw,relief=SUNKEN)
+pw.add(fr1,weight=1)
+pw.add(fr2,weight=2)
+root.mainloop()
